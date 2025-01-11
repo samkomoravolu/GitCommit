@@ -1,4 +1,4 @@
-$num_commits = Get-Random -Minimum 1 -Maximum 2
+$num_commits = Get-Random -Minimum 1 -Maximum 3
 for ($i = 0; $i -lt $num_commits; $i++) {
     $date = Get-Date
     $message = "Commit $i on $date"
